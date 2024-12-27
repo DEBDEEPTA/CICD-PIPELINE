@@ -4,7 +4,7 @@ agent any
 stages {
 stage('checkout') {
 steps {
-git url: 'https://github.com/DEBDEEPTA/CICD-PIPELINE.git' branch: 'main'
+git url: 'https://github.com/DEBDEEPTA/CICD-PIPELINE.git', branch: 'main'
 }
 }
 stage('build') {
